@@ -1,22 +1,23 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-body {
     height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-image: url("assets/image copy.png");
+    background-image: url("img3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    font-family: Arial, sans-serif;
 }
 
-/* Caixa central */
 .login-container {
-    background: rgba(0, 0, 0, 0.6); /* vidro escuro */
+    background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
 
     padding: 40px;
@@ -28,7 +29,6 @@ body {
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
 }
 
-/* Inputs */
 input {
     width: 250px;
     padding: 10px;
@@ -39,7 +39,6 @@ input {
     outline: none;
 }
 
-/* Botão estilo McQueen */
 button {
     width: 100%;
     padding: 10px;
@@ -60,7 +59,7 @@ button:hover {
     background: linear-gradient(45deg, orange, red);
 }
 
-/* Títulos */
 h2 {
-    color: #ffcc00; /* amarelo estilo McQueen */
+    color: #ffcc00;
 }
+
