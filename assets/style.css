@@ -59,6 +59,12 @@ button:hover {
     background: linear-gradient(45deg, orange, red);
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: red;
+}
+
 h2 {
     color: #ffcc00;
 }
